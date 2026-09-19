@@ -37,7 +37,28 @@ a:hover {
 /* メニュー */
 
 .site-header {
-  padding: 55px 48px 0;
+  padding: 70px 48px 35px;
+  position: relative;
+}
+
+.site-header::after {
+  content: "☆";
+  position: absolute;
+  right: 48px;
+  bottom: 29px;
+  background: #E6E1D8;
+  padding-left: 4px;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  left: 48px;
+  right: 48px;
+  bottom: 34px;
+  border-top: 1px solid #222222;
 }
 
 nav {
@@ -51,7 +72,7 @@ nav {
 /* トップページ */
 
 .home {
-  padding: 125px 48px 100px;
+  padding: 90px 48px 100px;
 }
 
 
@@ -93,7 +114,29 @@ nav {
 /* NEWS */
 
 .news {
-  margin-top: 100px;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.news::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #222222;
+}
+
+.news::after {
+  content: "☆";
+  position: absolute;
+  right: 0;
+  top: -6px;
+  background: #E6E1D8;
+  padding-left: 4px;
+  font-size: 10px;
+  line-height: 1;
 }
 
 .news h2 {
@@ -128,32 +171,22 @@ footer {
 }
 
 
+/* スマートフォン */
+
 @media (max-width: 600px) {
 
   .site-header {
-  padding: 70px 48px 35px;
-  position: relative;
-}
+    padding: 45px 25px 35px;
+  }
 
-.site-header::after {
-  content: "☆";
-  position: absolute;
-  right: 48px;
-  bottom: 29px;
-  background: #E6E1D8;
-  padding-left: 4px;
-  font-size: 10px;
-  line-height: 1;
-}
+  .site-header::after {
+    right: 25px;
+  }
 
-.site-header::before {
-  content: "";
-  position: absolute;
-  left: 48px;
-  right: 48px;
-  bottom: 34px;
-  border-top: 1px solid #222222;
-}
+  .site-header::before {
+    left: 25px;
+    right: 25px;
+  }
 
   nav {
     gap: 0 16px;
@@ -161,7 +194,7 @@ footer {
   }
 
   .home {
-    padding: 110px 25px 70px;
+    padding: 60px 25px 70px;
   }
 
   .profile h1 {
@@ -173,7 +206,7 @@ footer {
   }
 
   .news {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   footer {
