@@ -33,106 +33,100 @@ a:hover {
   text-underline-offset: 3px;
 }
 
+
+/* メニュー */
+
 .site-header {
   padding: 42px 48px 0;
 }
 
-.site-title {
-  display: block;
-  margin-bottom: 28px;
-  font-size: 14px;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  font-size: 12px;
+}
+
+
+/* トップページ */
+
+.home {
+  padding: 150px 48px 100px;
+}
+
+
+/* 名前 */
+
+.profile h1 {
+  margin: 0 0 4px;
+  font-size: 16px;
   font-weight: 500;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  font-size: 13px;
-}
 
-.home {
-  min-height: calc(100vh - 250px);
-  padding: 150px 48px 80px;
-}
+/* 肩書き */
 
-.intro {
-  margin: 0;
-  font-size: 15px;
-  line-height: 2.1;
-}
-
-.small-note {
-  margin-top: 32px;
+.role {
+  margin: 0 0 45px;
   font-size: 11px;
 }
 
-.page {
-  max-width: 720px;
-  padding: 130px 48px 120px;
+
+/* プロフィール */
+
+.intro {
+  margin: 0;
+  max-width: 620px;
+  font-size: 13px;
+  line-height: 2.2;
 }
 
-.page-title {
-  margin: 0 0 70px;
-  font-size: 15px;
-  font-weight: 500;
+
+/* メール */
+
+.email {
+  margin-top: 30px;
+  font-size: 11px;
 }
 
-.section {
-  margin-bottom: 75px;
+
+/* NEWS */
+
+.news {
+  margin-top: 130px;
 }
 
-.section-title {
-  margin: 0 0 24px;
+.news h2 {
+  margin: 0 0 28px;
   font-size: 12px;
   font-weight: 500;
 }
 
-p {
-  margin: 0 0 1.4em;
-}
-
-ul {
+.news ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  max-width: 720px;
 }
 
-li {
-  margin-bottom: 7px;
-}
-
-.book {
-  margin-bottom: 38px;
-}
-
-.book-title {
-  margin-bottom: 4px;
-}
-
-.book-info {
-  font-size: 12px;
-}
-
-.work {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 20px;
-  margin-bottom: 13px;
-}
-
-.work-year {
-  font-size: 12px;
-}
-
-.work-detail {
+.news li {
+  margin-bottom: 12px;
   font-size: 13px;
 }
+
+.news li::before {
+  content: "☆";
+  margin-right: 8px;
+}
+
+
+/* フッター */
 
 footer {
   padding: 40px 48px;
   font-size: 10px;
 }
+
 
 @media (max-width: 600px) {
 
@@ -140,25 +134,29 @@ footer {
     padding: 28px 25px 0;
   }
 
+  nav {
+    gap: 0 16px;
+    line-height: 2.2;
+  }
+
   .home {
-    min-height: calc(100vh - 220px);
-    padding: 110px 25px 60px;
+    padding: 110px 25px 70px;
   }
 
-  .page {
-    padding: 100px 25px 80px;
+  .profile h1 {
+    font-size: 15px;
   }
 
-  .page-title {
-    margin-bottom: 55px;
+  .intro {
+    font-size: 13px;
   }
 
-  .work {
-    grid-template-columns: 70px 1fr;
-    gap: 10px;
+  .news {
+    margin-top: 100px;
   }
 
   footer {
     padding: 30px 25px;
   }
+
 }
