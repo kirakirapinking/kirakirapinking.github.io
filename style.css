@@ -37,28 +37,33 @@ a:hover {
 /* メニュー */
 
 .site-header {
-  padding: 70px 48px 35px;
+  padding: 70px 48px 50px;
   position: relative;
 }
 
-.site-header::after {
-  content: "☆";
-  position: absolute;
-  right: 48px;
-  bottom: 29px;
-  background: #E6E1D8;
-  padding-left: 4px;
-  font-size: 10px;
-  line-height: 1;
-}
+/* 線 */
 
 .site-header::before {
   content: "";
   position: absolute;
   left: 48px;
-  right: 48px;
-  bottom: 34px;
+  width: 330px;
+  bottom: 49px;
   border-top: 1px solid #222222;
+}
+
+/* ☆ */
+
+.site-header::after {
+  content: "☆";
+  position: absolute;
+  left: 378px;
+  right: auto;
+  bottom: 44px;
+  background: #E6E1D8;
+  padding-left: 4px;
+  font-size: 10px;
+  line-height: 1;
 }
 
 nav {
@@ -72,7 +77,7 @@ nav {
 /* トップページ */
 
 .home {
-  padding: 90px 48px 100px;
+  padding: 55px 48px 100px;
 }
 
 
@@ -119,6 +124,8 @@ nav {
   position: relative;
 }
 
+/* NEWS上の線 */
+
 .news::before {
   content: "";
   position: absolute;
@@ -127,6 +134,8 @@ nav {
   right: 0;
   border-top: 1px solid #222222;
 }
+
+/* NEWS上の☆ */
 
 .news::after {
   content: "☆";
@@ -179,13 +188,21 @@ footer {
     padding: 45px 25px 35px;
   }
 
-  .site-header::after {
-    right: 25px;
-  }
+  /* スマホでは線を画面幅に合わせる */
 
   .site-header::before {
     left: 25px;
+    width: auto;
     right: 25px;
+    bottom: 34px;
+  }
+
+  /* スマホでは☆を右端に */
+
+  .site-header::after {
+    left: auto;
+    right: 25px;
+    bottom: 29px;
   }
 
   nav {
