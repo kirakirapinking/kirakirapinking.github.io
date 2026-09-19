@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  background: #E6E1D8;
+  color: #222222;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "Yu Gothic",
+    YuGothic,
+    sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-header {
+  padding: 42px 48px 0;
+}
+
+.site-title {
+  display: block;
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13px;
+}
+
+.home {
+  min-height: calc(100vh - 250px);
+  padding: 150px 48px 80px;
+}
+
+.intro {
+  margin: 0;
+  font-size: 15px;
+  line-height: 2.1;
+}
+
+.small-note {
+  margin-top: 32px;
+  font-size: 11px;
+}
+
+.page {
+  max-width: 720px;
+  padding: 130px 48px 120px;
+}
+
+.page-title {
+  margin: 0 0 70px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section {
+  margin-bottom: 75px;
+}
+
+.section-title {
+  margin: 0 0 24px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0 0 1.4em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+.book {
+  margin-bottom: 38px;
+}
+
+.book-title {
+  margin-bottom: 4px;
+}
+
+.book-info {
+  font-size: 12px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 20px;
+  margin-bottom: 13px;
+}
+
+.work-year {
+  font-size: 12px;
+}
+
+.work-detail {
+  font-size: 13px;
+}
+
+footer {
+  padding: 40px 48px;
+  font-size: 10px;
+}
+
+@media (max-width: 600px) {
+
+  .site-header {
+    padding: 28px 25px 0;
+  }
+
+  .home {
+    min-height: calc(100vh - 220px);
+    padding: 110px 25px 60px;
+  }
+
+  .page {
+    padding: 100px 25px 80px;
+  }
+
+  .page-title {
+    margin-bottom: 55px;
+  }
+
+  .work {
+    grid-template-columns: 70px 1fr;
+    gap: 10px;
+  }
+
+  footer {
+    padding: 30px 25px;
+  }
+}
