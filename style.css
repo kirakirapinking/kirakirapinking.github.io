@@ -37,7 +37,7 @@ a:hover {
 /* メニュー */
 
 .site-header {
-  padding: 42px 48px 0;
+  padding: 55px 48px 0;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav {
 /* トップページ */
 
 .home {
-  padding: 150px 48px 100px;
+  padding: 125px 48px 100px;
 }
 
 
@@ -93,7 +93,7 @@ nav {
 /* NEWS */
 
 .news {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .news h2 {
