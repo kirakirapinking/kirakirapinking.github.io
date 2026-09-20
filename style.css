@@ -321,5 +321,8 @@ padding: 30px 25px;
 }
 
 .book-images {
-  margin-top: 0;
+  display: flex;
+  gap: 24px;
+  margin: 20px 0 25px;
+  max-width: 620px;
 }
