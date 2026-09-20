@@ -233,3 +233,51 @@ padding: 30px 25px;
 }
 
 }
+
+/* NEWSページ */
+
+.page {
+  padding: 35px 48px 100px;
+}
+
+.page h1 {
+  margin: 0 0 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 720px;
+}
+
+.news-list li {
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+
+.news-mark {
+  margin-right: 8px;
+}
+
+
+/* NEWSページ・スマートフォン */
+
+@media (max-width: 600px) {
+
+  .page {
+    padding: 35px 25px 70px;
+  }
+
+  .page h1 {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .news-list li {
+    font-size: 13px;
+  }
+
+}
