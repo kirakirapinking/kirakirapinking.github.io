@@ -410,3 +410,33 @@ padding: 30px 25px;
   font-size: 13px;
   line-height: 1.9;
 }
+
+/* WORKページ */
+
+.work h1 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.work h2 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 35px;
+}
+
+.work-category {
+  margin-bottom: 45px;
+}
+
+.work-category h3 {
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0 0 18px;
+}
+
+.work-category p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.9;
+}
