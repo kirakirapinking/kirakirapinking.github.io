@@ -337,3 +337,12 @@ padding: 30px 25px;
 .news-article {
   margin-top: -20px;
 }
+
+.social-links {
+  margin-top: 18px;
+  font-size: 11px;
+}
+
+.social-links a {
+  margin-right: 18px;
+}
