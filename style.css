@@ -332,3 +332,7 @@ padding: 30px 25px;
   font-weight: 700;
   margin: 0 0 28px;
 }
+
+.news-article {
+  margin-top: -20px;
+}
