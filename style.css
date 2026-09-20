@@ -24,8 +24,9 @@ letter-spacing: 0.02em;
 }
 
 a {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 a:hover {
