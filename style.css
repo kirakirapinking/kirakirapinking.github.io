@@ -440,3 +440,13 @@ padding: 30px 25px;
   font-size: 13px;
   line-height: 1.9;
 }
+
+/* WORKページのリンク */
+
+.work a {
+  text-decoration: none;
+}
+
+.work a:hover {
+  text-decoration: none;
+}
