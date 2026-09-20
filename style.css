@@ -346,3 +346,67 @@ padding: 30px 25px;
 .social-links a {
   margin-right: 18px;
 }
+
+/* ABOUTページ */
+
+.about {
+  font-size: 13px;
+}
+
+.about h1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.about h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.about-name {
+  font-size: 11px;
+}
+
+.about-role {
+  font-size: 11px;
+}
+
+.about-profile {
+  font-size: 13px;
+  line-height: 2.1;
+}
+
+.about .social-links {
+  font-size: 11px;
+  margin-top: 18px;
+  margin-bottom: 35px;
+}
+
+.about-divider {
+  width: 330px;
+  border-top: 1px solid #222222;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about-divider::after {
+  content: "☆";
+  position: absolute;
+  left: 330px;
+  top: -6px;
+  background: #E6E1D8;
+  padding-left: 4px;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.about-history h2 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+
+.about-history {
+  font-size: 13px;
+  line-height: 1.9;
+}
