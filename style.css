@@ -237,7 +237,7 @@ padding: 30px 25px;
 /* NEWSページ */
 
 .page {
-  padding: 35px 48px 100px;
+  padding: 15px 48px 100px;
 }
 
 .page h1 {
@@ -268,7 +268,7 @@ padding: 30px 25px;
 @media (max-width: 600px) {
 
   .page {
-    padding: 35px 25px 70px;
+    padding: 15px 25px 70px;
   }
 
   .page h1 {
