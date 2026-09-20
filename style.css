@@ -281,3 +281,33 @@ padding: 30px 25px;
   }
 
 }
+
+/* NEWS記事の書影 */
+
+.book-images {
+  display: flex;
+  gap: 24px;
+  margin: 35px 0 45px;
+  max-width: 620px;
+}
+
+.book-images img {
+  display: block;
+  width: 280px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+
+  .book-images {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .book-images img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}
