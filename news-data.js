@@ -5,8 +5,8 @@ const newsData = [
     url: "news-20261015.html"
   },
   {
-    date: "2026.07.21",
-    title: "『随風04』に寄稿しました",
-    url: "news-20260721.html"
+    date: "2026.09.20",
+    title: "文芸誌『随風04』に寄稿しました",
+    url: "news-20260920.html"
   }
 ];
