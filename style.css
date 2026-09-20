@@ -326,3 +326,9 @@ padding: 30px 25px;
   margin: 20px 0 25px;
   max-width: 620px;
 }
+
+.signed-books h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 28px;
+}
