@@ -49,32 +49,40 @@
 
   <section class="news">
 
-    <h2>NEWS</h2>
+  <h2>NEWS</h2>
 
-    <ul>
+  <ul id="home-news-list"></ul>
 
-      <li>
-        <a href="news-book.html">
-          初めての書き下ろし単著『日記という運命』（産業編集センター）が刊行されます
-        </a>
-      </li>
-
-      <li>
-        <a href="news-fufu04.html">
-          『随風04』に寄稿しました
-        </a>
-      </li>
-
-    </ul>
-
-  </section>
+</section>
 
 </main>
 
 
 <footer>
-  <p>© Rina Sasaki</p>
+  <p>
+    <a href="index.html">© Rina Sasaki</a>
+  </p>
 </footer>
+
+<script src="news-data.js"></script>
+
+<script>
+  const homeNewsList = document.getElementById("home-news-list");
+
+  newsData.forEach(function(news) {
+
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+      <a href="${news.url}">
+        ${news.title}
+      </a>
+    `;
+
+    homeNewsList.appendChild(li);
+
+  });
+</script>
 
 </body>
 </html>
