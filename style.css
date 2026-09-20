@@ -311,3 +311,15 @@ padding: 30px 25px;
   }
 
 }
+
+.news-article-date {
+  margin: 0 0 8px;
+}
+
+.news-article h1 {
+  margin: 0 0 15px;
+}
+
+.book-images {
+  margin-top: 0;
+}
