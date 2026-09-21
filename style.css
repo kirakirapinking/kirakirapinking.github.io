@@ -451,3 +451,24 @@ padding: 30px 25px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* Podcast */
+
+.podcast-image {
+  margin: 20px 0 25px;
+}
+
+.podcast-image img {
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+
+  .podcast-image img {
+    width: 100%;
+    max-width: 240px;
+  }
+
+}
